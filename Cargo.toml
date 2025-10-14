@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-named-derive = { path = "named-derive" }
+named_derive = { path = "named_derive", version = "0.1.0" }
