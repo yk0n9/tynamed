@@ -1,4 +1,4 @@
-use named::Named;
+use tynamed::Named;
 
 #[test]
 fn test() {

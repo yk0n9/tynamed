@@ -49,7 +49,7 @@ fn derive_named(input: TokenStream) -> TokenStream {
     }
 
     quote::quote! {
-        impl #impl_generics ::named::Named for #ident #ty_generics #where_clause {
+        impl #impl_generics ::tynamed::Named for #ident #ty_generics #where_clause {
             fn name() -> &'static str {
                 #name
             }

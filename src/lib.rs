@@ -2,4 +2,4 @@ pub trait Named {
     fn name() -> &'static str;
 }
 
-pub use named_derive::Named;
+pub use tynamed_macros::Named;
