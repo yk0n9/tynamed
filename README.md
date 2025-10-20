@@ -5,7 +5,7 @@ Macro that automatically adds compile-time names to struct or enum
 ## Example
 
 ```rust
-use named::Named;
+use tynamed::Named;
 
 #[derive(Named)]
 struct TypeNameA;
